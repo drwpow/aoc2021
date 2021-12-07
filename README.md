@@ -3,7 +3,7 @@
 ## Challenges
 
 - [x] Dec 1 `cargo run -- 1`
-- [ ] Dec 2
+- [x] Dec 2 `cargo run -- 2`
 - [ ] Dec 3
 - [ ] Dec 4
 - [ ] Dec 5
