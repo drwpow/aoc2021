@@ -1,10 +1,8 @@
-use std::fs;
-use std::path::Path;
+use crate::utils;
 
 pub fn run() {
-  let contents =
-    fs::read_to_string(Path::new("./data/input1.txt")).expect("couldn’t locate data/input1.txt");
-  let depths: Vec<i32> = contents
+  let filepath = "data/input1.txt".to_string();
+  let depths: Vec<i32> = utils::read_file(filepath)
     .split("\n")
     .filter(|l| l.len() > 0)
     .map(|l| l.parse::<i32>().unwrap())

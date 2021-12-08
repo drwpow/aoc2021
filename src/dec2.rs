@@ -1,6 +1,6 @@
 use regex::Regex;
-use std::fs;
-use std::path::Path;
+
+use crate::utils;
 
 enum Direction {
   Forward,
@@ -14,10 +14,9 @@ struct Instruction {
 }
 
 pub fn run() {
-  let contents =
-    fs::read_to_string(Path::new("./data/input2.txt")).expect("couldn’t locate data/input2.txt");
+  let filepath = "data/input2.txt".to_string();
   let re = Regex::new(r"(\w+)\s+(\d+)").unwrap();
-  let instructions: Vec<Instruction> = contents
+  let instructions: Vec<Instruction> = utils::read_file(filepath)
     .split("\n")
     .map(|l| {
       if l.len() == 0 {

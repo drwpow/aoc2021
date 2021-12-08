@@ -4,7 +4,7 @@
 
 - [x] Dec 1 `cargo run -- 1`
 - [x] Dec 2 `cargo run -- 2`
-- [ ] Dec 3
+- [x] Dec 3 `cargo run -- 3`
 - [ ] Dec 4
 - [ ] Dec 5
 - [ ] Dec 6

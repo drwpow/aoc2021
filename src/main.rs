@@ -1,7 +1,12 @@
+#![allow(confusable_idents)]
+#![allow(mixed_script_confusables)]
+
 use std::env;
 
 mod dec1;
 mod dec2;
+mod dec3;
+mod utils;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -10,6 +15,7 @@ fn main() {
         Some(challenge) => match challenge.as_ref() {
             "1" => dec1::run(),
             "2" => dec2::run(),
+            "3" => dec3::run(),
             _ => println!(
                 "{}",
                 format!("Challenge for day {} not implemented yet", challenge)
