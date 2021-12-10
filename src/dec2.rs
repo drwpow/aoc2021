@@ -1,6 +1,5 @@
-use regex::Regex;
-
 use crate::utils;
+use regex::Regex;
 
 enum Direction {
   Forward,
