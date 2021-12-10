@@ -8,7 +8,7 @@
 - [x] ⭐⭐ Dec 4 `cargo run -- 4`
 - [x] ⭐⭐ Dec 5 `cargo run -- 5`
 - [x] ⭐⭐ Dec 6 `cargo run -- 6`
-- [ ] Dec 7
+- [x] ⭐⭐ Dec 7 `cargo run -- 7`
 - [ ] Dec 8
 - [ ] Dec 9
 - [ ] Dec 10
