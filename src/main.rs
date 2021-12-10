@@ -8,6 +8,7 @@ mod dec2;
 mod dec3;
 mod dec4;
 mod dec5;
+mod dec6;
 mod utils;
 
 fn main() {
@@ -20,6 +21,7 @@ fn main() {
             "3" => dec3::run(),
             "4" => dec4::run(),
             "5" => dec5::run(),
+            "6" => dec6::run(),
             _ => println!(
                 "{}",
                 format!("Challenge for day {} not implemented yet", challenge)
