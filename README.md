@@ -11,7 +11,7 @@
 - [x] ⭐⭐ Dec 7 `cargo run -- 7`
 - [x] ⭐⭐ Dec 8 `cargo run -- 8`
 - [x] ⭐⭐ Dec 9 `cargo run -- 9`
-- [ ] Dec 10
+- [x] ⭐⭐ Dec 10 `cargo run -- 10`
 - [ ] Dec 11
 - [ ] Dec 12
 - [ ] Dec 13
