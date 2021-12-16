@@ -6,6 +6,7 @@ use std::env;
 mod dec1;
 mod dec10;
 mod dec11;
+mod dec12;
 mod dec2;
 mod dec3;
 mod dec4;
@@ -32,6 +33,7 @@ fn main() {
             "9" => dec9::run(),
             "10" => dec10::run(),
             "11" => dec11::run(),
+            "12" => dec12::run(),
             _ => println!(
                 "{}",
                 format!("Challenge for day {} not implemented yet", challenge)
